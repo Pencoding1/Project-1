@@ -9,7 +9,7 @@ init offset = -2
 ## Calling gui.init resets the styles to sensible default values, and sets the
 ## width and height of the game.
 init python:
-    gui.init(1280, 720)
+    gui.init(1300, 720)
 
 
 
@@ -23,7 +23,7 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#cc0000'
+define gui.accent_color = u'#ccc0000'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = u'#cc0000'
